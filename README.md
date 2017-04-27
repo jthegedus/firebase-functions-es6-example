@@ -1,8 +1,6 @@
 # ES6+ in Cloud Functions for Firebase
 Use ES6+ to develop Cloud Functions for Firebase today!
 
-This repo houses an example for using ES6+ in Cloud Functions for Firebase.
-
 Here is the accompanying [Medium post](https://medium.com/@jthegedus/es6-in-cloud-functions-for-firebase-959b35e31cb0).
 
 ## TLDR;
