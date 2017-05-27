@@ -1,9 +1,6 @@
-import { https } from "firebase-functions"
-import { Router } from "express"
+import * as functions from "firebase-functions"
 
-const server = new Router()
-server.get("*", (req, res) => {
-  res.send("Hello from Express on Cloud Functions for Firebase!")
+export let helloWorld = functions.https.onRequest((req, res) => {
+  let world = `from ES6 in Cloud Functions!`
+  res.status(200).send(`Hello ${world}`)
 })
-
-export const helloWorld = https.onRequest(server)
