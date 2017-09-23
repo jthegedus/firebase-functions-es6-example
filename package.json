@@ -4,7 +4,8 @@
   "description": "Use ES6 to develop Cloud Functions for Firebase today!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jthegedus/firebase-functions-es6-example.git",
+    "url": "git+https://github.com/jthegedus/firebase-functions-es6-example.git"
+  },
   "author": "James Hegedus",
   "license": "MIT",
   "bugs": {
